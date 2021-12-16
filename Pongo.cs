@@ -17,6 +17,7 @@ public class Pongo : MonoBehaviour
     private void Update()
     {
         if(pon.position.x < 8.5 && Input.GetKey(KeyCode.D))
+        //pon.position.x is for bounds, go in your unity editor and check what distance you need to stop your pong stick
         {
             Right = true; //more easy way for make this compatible with mobile controls
         }
